@@ -20,7 +20,7 @@ services:
       MYSQL_ROOT_PASSWORD: luffy
       MYSQL_DATABASE: your_database
       MYSQL_USER: sudharshan
-      MYSQL_PASSWORD: devops
+      MYSQL_PASSWORD: luffy
     volumes:
       - ./message.sql:/docker-entrypoint-initdb.d/message.sql   # Mount sql script into container's /docker-entrypoint-initdb.d directory
       - mysql-data:/var/lib/mysql  # Mount the volume for MySQL data storage
